@@ -508,11 +508,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Device Simulator
       objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+--- !u!1 &414358819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
+    type: 3}
+  m_PrefabInstance: {fileID: 414358818}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &432432459
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9325faa9c39895e41a0371fc47478031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourisClavier: {fileID: 0}
+  activVR: 1
+  sourisClavier: {fileID: 414358819}
 --- !u!4 &1015038058
 Transform:
   m_ObjectHideFlags: 0
@@ -663,11 +675,23 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 730414982015351325, guid: 3650acf80bd425c48a070c292530d98f,
+        type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 8270855663187062767, guid: 1392f805216c47742996d4742c80721c,
+        type: 3}
     - target: {fileID: 1263142432762080346, guid: 3650acf80bd425c48a070c292530d98f,
         type: 3}
       propertyPath: m_Name
       value: Joueur
       objectReference: {fileID: 0}
+    - target: {fileID: 3862792558737141355, guid: 3650acf80bd425c48a070c292530d98f,
+        type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 3475118261464492563, guid: 9f3369e30fbd31f4bb596b1a99babe83,
+        type: 3}
     - target: {fileID: 6719839620348970386, guid: 3650acf80bd425c48a070c292530d98f,
         type: 3}
       propertyPath: m_LocalPosition.x
