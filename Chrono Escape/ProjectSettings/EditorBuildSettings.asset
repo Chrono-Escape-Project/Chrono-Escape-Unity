@@ -9,7 +9,17 @@ EditorBuildSettings:
     path: Assets/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
   m_configObjects:
+<<<<<<< Updated upstream
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ca7a67ddf94c15e4bad95949870a630f,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 214d3c7a1a701884e8b001b11d065fc5,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 35221b7d234a3df46b1e49c6f476f49a,
+=======
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b900a0dcae2ca2e4bb9dcaa651642fb7,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 62f139e2ae441ed4581baa5ebecfd46b,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7a5f8b50806453645b3e635a4c130e50,
+>>>>>>> Stashed changes
       type: 2}
