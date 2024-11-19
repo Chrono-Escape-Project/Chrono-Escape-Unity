@@ -122,6 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream:Chrono Escape/Assets/Scenes/Matis_Cyberpunk.unity
 --- !u!1 &564412826
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +333,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 754783542}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes:Chrono Escape/Assets/Scene/Matis_Cyberpunk.unity
 --- !u!1 &825085210
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,4 +734,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 825085213}
   - {fileID: 1617652960}
+<<<<<<< Updated upstream:Chrono Escape/Assets/Scenes/Matis_Cyberpunk.unity
   - {fileID: 754783542}
+=======
+>>>>>>> Stashed changes:Chrono Escape/Assets/Scene/Matis_Cyberpunk.unity
