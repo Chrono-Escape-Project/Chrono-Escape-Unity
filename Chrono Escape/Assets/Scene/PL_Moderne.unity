@@ -2328,7 +2328,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -16.427, y: 14.646, z: 27.571}
-  m_LocalScale: {x: 0.39895, y: 0.39895, z: 0.39895}
+  m_LocalScale: {x: 0.33195034, y: 0.33195034, z: 0.33195034}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5258733310272569508}
@@ -10628,7 +10628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1765099942
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15302,8 +15302,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.093045115, y: 0.02031807, z: 0.05659554}
-  m_Center: {x: 0.00000006080585, y: 0.0035117057, z: -0.0124711655}
+  m_Size: {x: 0.09304512, y: 0.025507232, z: 0.021060403}
+  m_Center: {x: 0.00000005978928, y: 0.0061063254, z: 0.00529641}
 --- !u!33 &4095158532970097085
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15362,7 +15362,7 @@ Transform:
   m_GameObject: {fileID: 3652903051241986397}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -41.365604, y: 9.9065075, z: 49.22191}
+  m_LocalPosition: {x: -55.6, y: 10.1, z: -30.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18226,6 +18226,7 @@ GameObject:
   - component: {fileID: 5320226958996848662}
   - component: {fileID: 3470146295437178504}
   - component: {fileID: 4985029866466830935}
+  - component: {fileID: 8188180019507662589}
   m_Layer: 0
   m_Name: Main platform
   m_TagString: Untagged
@@ -18233,6 +18234,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8188180019507662589
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188180019507662588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02154353, y: 0.021543534, z: 0.021543698}
+  m_Center: {x: 4.6566126e-10, y: -0.000000003259629, z: -4.656649e-10}
 --- !u!4 &8239611978690501979
 Transform:
   m_ObjectHideFlags: 0
