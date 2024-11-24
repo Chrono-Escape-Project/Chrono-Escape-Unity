@@ -3,7 +3,22 @@ guid: 75edbbc0a45fcc14bb4be91bc7ed7291
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseGiratoria
+    second: {fileID: 2100000, guid: e41a984d098319d42944cb1d92b330d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Catraca
+    second: {fileID: 2100000, guid: 3c145c89a570dea44babdb3ebe84466e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Protecao
+    second: {fileID: 2100000, guid: 9d63733f16b6dfc49abb37c7feb07195, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
