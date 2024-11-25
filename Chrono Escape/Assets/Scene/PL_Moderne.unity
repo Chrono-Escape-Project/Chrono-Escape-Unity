@@ -13403,6 +13403,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8691172180388210783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &866857672911741791
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522863070341150272}
+  m_Mesh: {fileID: 1814075518790897361, guid: 592fe895a2353f3489d3aa4ae4f88735, type: 3}
 --- !u!1 &894524628074404025
 GameObject:
   m_ObjectHideFlags: 0
@@ -15122,6 +15130,48 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6435932855613738939}
   m_Mesh: {fileID: -6686024219749354047, guid: 3bf6307e1033b454eb559dea29adb12d, type: 3}
+--- !u!23 &3162447487791863701
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522863070341150272}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6922793697723135513, guid: 592fe895a2353f3489d3aa4ae4f88735, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3217997213082551288
 GameObject:
   m_ObjectHideFlags: 0
@@ -15386,6 +15436,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4234357588872324234}
   m_Mesh: {fileID: 5933052800444160435, guid: 16ac80f6a4615aa49937434a3eebdb5e, type: 3}
+--- !u!1 &3522863070341150272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4298802258184170746}
+  - component: {fileID: 866857672911741791}
+  - component: {fileID: 3162447487791863701}
+  m_Layer: 0
+  m_Name: SubwayTunnel 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &3550159369196642105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15909,6 +15977,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &4298802258184170746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522863070341150272}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.50000006, y: -0.49999997, z: -0.49999997, w: 0.50000006}
+  m_LocalPosition: {x: -29.894827, y: 17.363995, z: 21.656425}
+  m_LocalScale: {x: 45.700768, y: 56.428295, z: 28.001726}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4347969146444281573
 Transform:
   m_ObjectHideFlags: 0
@@ -19421,3 +19504,4 @@ SceneRoots:
   - {fileID: 862194351}
   - {fileID: 764275972}
   - {fileID: 1023477702}
+  - {fileID: 4298802258184170746}
