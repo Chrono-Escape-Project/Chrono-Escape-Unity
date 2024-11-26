@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class FlickerControls : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool isFlickering = false;
+    public float timeDelay;
 
-    // Update is called once per frame
-    void Update()
+     void Update()
     {
-        
+        if ()
     }
 }
