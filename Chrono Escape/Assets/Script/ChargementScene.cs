@@ -7,9 +7,11 @@ public class ChargementScene : MonoBehaviour
 {
    
    public Animator canvas;
+    public int telScene;
 
-   public void onPress()
+   public void onPress(int i)
    {
+    telScene = i;
     StartCoroutine("chargerNiveau");
    }
 
@@ -17,7 +19,7 @@ public class ChargementScene : MonoBehaviour
    {
     canvas.SetTrigger("Debut");
     yield return new WaitForSeconds(1f);
-    SceneManager.LoadScene(3);
+    SceneManager.LoadScene(telScene);
 
     yield break;
    }

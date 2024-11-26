@@ -11572,7 +11572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1765099946}
-  telScene: 0
+  telScene: 3
 --- !u!1001 &1569536189
 PrefabInstance:
   m_ObjectHideFlags: 0
