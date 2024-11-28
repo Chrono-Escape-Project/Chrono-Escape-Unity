@@ -3694,8 +3694,8 @@ MonoBehaviour:
   m_FrameSpace: 0
   m_AnchorPositionOverride: {fileID: 0}
   m_AnchorPositionOffset: {x: 0, y: 0, z: 0}
-  m_Yaw: 41.179104
-  m_Pitch: 1.2062585
+  m_Yaw: 30.902914
+  m_Pitch: 1.6124051
   m_Roll: 0
 --- !u!23 &646227246
 MeshRenderer:
@@ -13774,7 +13774,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -25136,7 +25136,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 4.4830093
+  MinDistance: 3.6839085
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -25187,7 +25187,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.75
       inSlope: 0
       outSlope: 0
       tangentMode: 0
