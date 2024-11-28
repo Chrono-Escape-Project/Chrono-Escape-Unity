@@ -3846,7 +3846,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a30a580b5fec5fd40bc9630534b2b1b5, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.77
   m_Pitch: 0.29
   Loop: 0
@@ -21912,6 +21912,7 @@ GameObject:
   - component: {fileID: 7635989041792940372}
   - component: {fileID: 1516048501088970269}
   - component: {fileID: 6408294454451502907}
+  - component: {fileID: 7635989041792940374}
   - component: {fileID: 7635989041792940373}
   m_Layer: 0
   m_Name: Reloj
@@ -25127,7 +25128,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3e799dba3ce3b36419f2b88ff62ef138, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
@@ -25136,7 +25137,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 3.6839085
+  MinDistance: 2.4800472
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -25212,6 +25213,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7635989041792940374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4997685266552004415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c0f843bebfc214ab922e4a3644f105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 7635989041792940373}
 --- !u!1 &7647047387169154901
 GameObject:
   m_ObjectHideFlags: 0
