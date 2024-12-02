@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using UnityEngine;  // This is required to use MonoBehaviour
 
 public class GameManager : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class GameManager : MonoBehaviour
     public void CollectCode(string code)
     {
         collectedCodes.Add(code);
-        Debug.Log($"Collected Codes: {string.Join(", ", collectedCodes)}");
+        UnityEngine.Debug.Log($"Collected Codes: {string.Join(", ", collectedCodes)}");
     }
 
     public bool HasCode(string code)

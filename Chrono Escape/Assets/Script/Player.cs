@@ -26,16 +26,4 @@ public class Player : MonoBehaviour
     }
 }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        // Check if the player enters the trigger
-        if (other.CompareTag("Player"))
-        {
-            // Play the sound
-            if (!audioSource.isPlaying)
-            {
-                audioSource.Play();
-            }
-        }
-    }
 }

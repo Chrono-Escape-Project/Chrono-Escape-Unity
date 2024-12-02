@@ -17,7 +17,7 @@ public class ElevatorTransition : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Scene name not set on Elevator prefab!");
+            UnityEngine.Debug.Log("Scene name not set on Elevator prefab!");
         }
     }
 }
