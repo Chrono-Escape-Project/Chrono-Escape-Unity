@@ -4,29 +4,37 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public AudioSource audioSource; // Drag and drop the Audio Source component here
-    public string targetZoneName = "Tunnel"; // Name of the collider zone
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        // Get the AudioSource component
+        audioSource = GetComponent<AudioSource>();
+
+        // Ensure the audio doesn't play automatically
+        audioSource.playOnAwake = false;
+    }
+
+    private bool hasPlayed = false;
+
+    private void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Player") && !hasPlayed)
+    {
+        audioSource.Play();
+        hasPlayed = true;
+    }
+}
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == targetZoneName) // Check if the player entered the "Tunnel" zone
+        // Check if the player enters the trigger
+        if (other.CompareTag("Player"))
         {
-            if (!audioSource.isPlaying) // Avoid restarting the sound if it's already playing
+            // Play the sound
+            if (!audioSource.isPlaying)
             {
                 audioSource.Play();
-                Debug.Log("Sound played in the Tunnel zone.");
-            }
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.name == targetZoneName) // Check if the player exited the "Tunnel" zone
-        {
-            if (audioSource.isPlaying)
-            {
-                audioSource.Stop();
-                Debug.Log("Sound stopped after leaving the Tunnel zone.");
             }
         }
     }
