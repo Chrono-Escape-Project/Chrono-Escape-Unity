@@ -1,6 +1,5 @@
 # Chrono Escape
 
-![Logo ou capture d'écran du projet](chemin/vers/image.png)
 
 ## 📖 Aperçu
 
