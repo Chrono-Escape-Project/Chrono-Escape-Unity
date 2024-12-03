@@ -2512,7 +2512,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.290209
+      value: -11.849
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
@@ -2522,22 +2522,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.39207
+      value: 26.621
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.69059026
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.7232462
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
@@ -2552,7 +2552,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 92.646
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8b9d9ce34f11d14a9eb7974b414452a,
         type: 3}
@@ -2599,7 +2599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6753826089e784b97a646799402f71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  code: 5731
 --- !u!114 &304785678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2774,8 +2773,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6090,15 +6089,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 496720, guid: 928a99e5a0200f24fb2084c90b0b88c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.88429993
+      value: 0.884
       objectReference: {fileID: 0}
     - target: {fileID: 496720, guid: 928a99e5a0200f24fb2084c90b0b88c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.061960336
+      value: 0.069
       objectReference: {fileID: 0}
     - target: {fileID: 496720, guid: 928a99e5a0200f24fb2084c90b0b88c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6080842
+      value: 0.608
       objectReference: {fileID: 0}
     - target: {fileID: 496720, guid: 928a99e5a0200f24fb2084c90b0b88c4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6425,27 +6424,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &784691327
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149459352795}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.05958314, y: 0.19373788, z: 0.05722405}
-  m_Center: {x: -0.00000011920929, y: 0, z: -0.000000059604645}
 --- !u!114 &784691328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17141,8 +17119,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: -16.75576
-    max: 144.95407
+    min: -99.67727
+    max: 92.708374
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -20143,7 +20121,7 @@ Transform:
   m_GameObject: {fileID: 919132149459352795}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.54058975, z: -0, w: 0.8412864}
-  m_LocalPosition: {x: -2.3373756, y: -2.64, z: -1.490139}
+  m_LocalPosition: {x: -2.3373756, y: -2.59, z: -1.490139}
   m_LocalScale: {x: 30.175655, y: 30.175655, z: 30.175655}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20788,7 +20766,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518c7482c9a4be849bcde7441931ccdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Matis_Cyberpunk
 --- !u!1 &919132148887340809
 GameObject:
   m_ObjectHideFlags: 0
@@ -20908,7 +20885,6 @@ GameObject:
   - component: {fileID: 1711813855329770766}
   - component: {fileID: 784691325}
   - component: {fileID: 784691326}
-  - component: {fileID: 784691327}
   m_Layer: 0
   m_Name: statue_export
   m_TagString: Untagged
@@ -27203,8 +27179,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: -175.57397
-    max: -9.085716
+    min: -118.107735
+    max: 66.93968
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
