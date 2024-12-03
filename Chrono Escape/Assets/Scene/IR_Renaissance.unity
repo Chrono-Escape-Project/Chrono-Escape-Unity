@@ -2341,7 +2341,6 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
   m_TeleportationProvider: {fileID: 3840834812986019491}
   m_MatchOrientation: 0
   m_MatchDirectionalInput: 0
@@ -13013,7 +13012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 676c10a35cd5ce548b74f932c9f524a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: PL_Moderne
   sceneName: PL_Moderne
 --- !u!65 &1133522646
 BoxCollider:
@@ -15723,7 +15721,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1016621507197270, guid: e484c7ad7b1274b4c847940d3eb54d14,
         type: 3}
@@ -19719,7 +19716,6 @@ GameObject:
   - component: {fileID: 6719839620430483532}
   m_Layer: 0
   m_Name: Joueur
-  m_TagString: Untagged
   m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20530,6 +20526,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
+  field of view: 34.5
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -20891,7 +20888,6 @@ Transform:
   m_GameObject: {fileID: 1263142433083128196}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.09317, y: 2.47, z: -11.6}
   m_LocalPosition: {x: -41.02, y: 2.12, z: -20.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
