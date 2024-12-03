@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tunnel
   - zone clee
+  - Player2
   layers:
   - Default
   - TransparentFX
