@@ -8,7 +8,7 @@ public class VRKeypad : MonoBehaviour
 {
     public Text displayText; // Reference to the display
     private string enteredCode = ""; // Current entered code
-    private string correctCode = "1234"; // The correct code
+    private string correctCode = "5431"; // The correct code
 
     public void ButtonPressed(string number)
     {
