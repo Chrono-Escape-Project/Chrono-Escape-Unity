@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 28017955}
   m_Layer: 0
-  m_Name: lamp
+  m_Name: lamp_structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,16 +148,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28017954}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0014870758, y: -0.7071052, z: -0.0014870758, w: 0.7071052}
-  m_LocalPosition: {x: 60.797783, y: -112.89682, z: -29.88122}
-  m_LocalScale: {x: 18.088282, y: 18.088282, z: 18.088282}
+  m_LocalRotation: {x: -0.500828, y: -0.5012724, z: 0.50737894, w: 0.49037117}
+  m_LocalPosition: {x: -26.443005, y: 10.394723, z: 40.70287}
+  m_LocalScale: {x: 8.962259, y: 10.314995, z: 8.961183}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 846878365}
   - {fileID: 1873108192}
   - {fileID: 596964252}
   - {fileID: 1228898517}
-  m_Father: {fileID: 2147158102}
+  m_Father: {fileID: 125196584}
   m_LocalEulerAnglesHint: {x: -0.241, y: -90, z: 0}
 --- !u!1001 &58035012
 PrefabInstance:
@@ -235,7 +235,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fbae0e564d8ba184683baf62198e952f,
         type: 3}
       propertyPath: m_Name
-      value: trashbag (1)
+      value: trashbag2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -490,7 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125196584}
   m_Layer: 0
-  m_Name: light ceiling Lamp
+  m_Name: lamp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,6 +511,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1190960494}
+  - {fileID: 28017955}
   m_Father: {fileID: 2147158102}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &139385251
@@ -1483,7 +1484,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fbae0e564d8ba184683baf62198e952f,
         type: 3}
       propertyPath: m_Name
-      value: trashbag
+      value: trashbag1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1566,7 +1567,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fbae0e564d8ba184683baf62198e952f,
         type: 3}
       propertyPath: m_Name
-      value: trashbag (2)
+      value: trashbag4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1627,9 +1628,9 @@ MonoBehaviour:
   m_FrameSpace: 0
   m_AnchorPositionOverride: {fileID: 0}
   m_AnchorPositionOffset: {x: 0, y: 0, z: 0}
-  m_Yaw: 44.66374
-  m_Pitch: 2.7695148
-  m_Roll: 0
+  m_Yaw: -173.71278
+  m_Pitch: 86.610695
+  m_Roll: 179.00201
 --- !u!23 &493320563
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2060,7 +2061,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2147158102}
+    m_TransformParent: {fileID: 125196584}
     m_Modifications:
     - target: {fileID: 3344628597075552475, guid: 5966c04d685654544bb55b61087ece3a,
         type: 3}
@@ -2070,7 +2071,7 @@ PrefabInstance:
     - target: {fileID: 4695707989099266420, guid: 5966c04d685654544bb55b61087ece3a,
         type: 3}
       propertyPath: m_Name
-      value: lamp
+      value: lamp_structure
       objectReference: {fileID: 0}
     - target: {fileID: 9016363629099690679, guid: 5966c04d685654544bb55b61087ece3a,
         type: 3}
@@ -3282,7 +3283,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fbae0e564d8ba184683baf62198e952f,
         type: 3}
       propertyPath: m_Name
-      value: trashbag (4)
+      value: trashbag5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3300,7 +3301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1999231051}
   m_Layer: 0
-  m_Name: light ceiling Lamp (1)
+  m_Name: lamp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3360,9 +3361,9 @@ MonoBehaviour:
   m_FrameSpace: 0
   m_AnchorPositionOverride: {fileID: 0}
   m_AnchorPositionOffset: {x: 0, y: 0, z: 0}
-  m_Yaw: 44.66374
-  m_Pitch: 2.7695148
-  m_Roll: 0
+  m_Yaw: 177.12343
+  m_Pitch: 76.76309
+  m_Roll: 179.00201
 --- !u!23 &1190960496
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3578,7 +3579,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fbae0e564d8ba184683baf62198e952f,
         type: 3}
       propertyPath: m_Name
-      value: trashbag (3)
+      value: trashbag3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3679,7 +3680,7 @@ PrefabInstance:
     - target: {fileID: 380010392501569825, guid: f79517fa2094fbc4e97da9a233522a69,
         type: 3}
       propertyPath: m_Name
-      value: light ceiling Lamp
+      value: lamp1
       objectReference: {fileID: 0}
     - target: {fileID: 3257071443401187255, guid: f79517fa2094fbc4e97da9a233522a69,
         type: 3}
@@ -4257,12 +4258,12 @@ Transform:
   m_GameObject: {fileID: 1711494708}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.84631, y: -42.350254, z: 17.660055}
-  m_LocalScale: {x: 7.361423, y: 7.361423, z: 7.361423}
+  m_LocalPosition: {x: -44.33595, y: 80.04273, z: -15.818059}
+  m_LocalScale: {x: 0.8674201, y: 0.8674201, z: 0.8674201}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1032898003}
-  m_Father: {fileID: 2147158102}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1723678723
 PrefabInstance:
@@ -4630,7 +4631,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fbae0e564d8ba184683baf62198e952f,
         type: 3}
       propertyPath: m_Name
-      value: trashbag (5)
+      value: trashbag6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4767,12 +4768,12 @@ Transform:
   m_GameObject: {fileID: 1846898896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.84631, y: -42.350254, z: 17.660055}
-  m_LocalScale: {x: 7.361423, y: 7.361423, z: 7.361423}
+  m_LocalPosition: {x: -44.33595, y: 80.04273, z: -15.818059}
+  m_LocalScale: {x: 0.8674201, y: 0.8674201, z: 0.8674201}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1464997734}
-  m_Father: {fileID: 2147158102}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1873108191
 GameObject:
@@ -5763,7 +5764,7 @@ PrefabInstance:
     - target: {fileID: 380010392501569825, guid: f79517fa2094fbc4e97da9a233522a69,
         type: 3}
       propertyPath: m_Name
-      value: light ceiling Lamp (1)
+      value: lamp2
       objectReference: {fileID: 0}
     - target: {fileID: 3257071443401187255, guid: f79517fa2094fbc4e97da9a233522a69,
         type: 3}
@@ -5905,19 +5906,16 @@ Transform:
   - {fileID: 543450653427827112}
   - {fileID: 543450652401643515}
   - {fileID: 543450652717236947}
-  - {fileID: 1544490035}
-  - {fileID: 1711494709}
-  - {fileID: 1846898897}
-  - {fileID: 728341033}
   - {fileID: 125196584}
   - {fileID: 1999231051}
-  - {fileID: 28017955}
+  - {fileID: 728341033}
   - {fileID: 891127284}
   - {fileID: 1035909150}
   - {fileID: 903347569}
   - {fileID: 548466671}
   - {fileID: 2072392883}
   - {fileID: 1919552452}
+  - {fileID: 1544490035}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &215592838972294994
@@ -11275,4 +11273,6 @@ SceneRoots:
   - {fileID: 2147158102}
   - {fileID: 411427852}
   - {fileID: 1972853732}
+  - {fileID: 1711494709}
+  - {fileID: 1846898897}
   - {fileID: 1889562628}
