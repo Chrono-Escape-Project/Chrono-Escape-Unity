@@ -402,11 +402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402984, guid: 37cf9458531d1be4eb01f7339ba4818e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.64
+      value: 32.16
       objectReference: {fileID: 0}
     - target: {fileID: 402984, guid: 37cf9458531d1be4eb01f7339ba4818e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.77
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 402984, guid: 37cf9458531d1be4eb01f7339ba4818e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3445,7 +3445,7 @@ GameObject:
   - component: {fileID: 668526413}
   - component: {fileID: 668526412}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: TerrainRenaissance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
