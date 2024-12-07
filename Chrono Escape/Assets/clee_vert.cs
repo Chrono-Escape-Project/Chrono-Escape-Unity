@@ -10,7 +10,9 @@ public class clee_vert : MonoBehaviour
     public Animator liquid4;
     public Animator liquid5;
     public Animator liquid6;
+
     public AudioSource sonBizz;
+    public AudioClip sonBizzClip;
  
     public void OnTriggerEnter(Collider other)
     {
@@ -22,8 +24,10 @@ public class clee_vert : MonoBehaviour
             liquid4.Play("liquid4");
             liquid5.Play("liquid5");
             liquid6.Play("liquid6");
-            sonBizz.Play();    
-        }
+        } if (sonBizz != null && sonBizzClip != null)
+            {
+                sonBizz.PlayOneShot(sonBizzClip);
+            }
     }
 }
 
