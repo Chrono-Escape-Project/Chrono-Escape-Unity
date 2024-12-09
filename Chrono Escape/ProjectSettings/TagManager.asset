@@ -7,6 +7,7 @@ TagManager:
   - Tunnel
   - zone clee
   - zone clee vert
+  - joueur
   layers:
   - Default
   - TransparentFX
