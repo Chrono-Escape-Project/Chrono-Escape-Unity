@@ -8312,6 +8312,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2011163038}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6900d176085467c488c61207a9e746fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2011163039}
   m_SourcePrefab: {fileID: 100100000, guid: 6900d176085467c488c61207a9e746fb, type: 3}
 --- !u!1 &1363120117 stripped
 GameObject:
@@ -11216,6 +11220,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.059583124, y: 0.19373783, z: 0.05722404}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2011163039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011163035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e73e733b68278458aa07d39350c313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionUI: {fileID: 0}
+  questionText: {fileID: 0}
+  question: Insert Question here
+  correctAnswer: 
+  reward: {fileID: 0}
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
