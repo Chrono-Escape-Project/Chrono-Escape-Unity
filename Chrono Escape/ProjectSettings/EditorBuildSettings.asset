@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/PL_Moderne.unity
+    guid: 9ede1c3ee8732b84b846328602cef626
   m_configObjects:
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 35221b7d234a3df46b1e49c6f476f49a,
       type: 2}
