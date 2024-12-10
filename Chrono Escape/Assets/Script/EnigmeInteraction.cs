@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class EnigmeInteraction : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class EnigmeInteraction : MonoBehaviour
     public GameObject StatueObjet;         // Objet Statue (qui déclenche le Canvas)
     public GameObject TeleportationArea;   // Zone de téléportation
     public GameObject CanvaStatue;         // Canvas à afficher
+
 
     private bool premierObjetPris = false;
     private bool deuxiemeObjetPris = false;
@@ -48,6 +50,7 @@ public class EnigmeInteraction : MonoBehaviour
             StatueObjet.SetActive(true);       // Active la statue
             TeleportationArea.SetActive(true); // Active la zone de téléportation
             CanvaStatue.SetActive(true);       // Active le CanvasStatue
+
             Debug.Log("Les deux objets sont pris, StatueObjet, TeleportationArea, et CanvaStatue activés");
         }
         else
@@ -85,7 +88,7 @@ public class EnigmeInteraction : MonoBehaviour
     private IEnumerator ShowCanvasFor30Seconds()
     {
         CanvaStatue.SetActive(true); // Activer le CanvasStatue
-        yield return new WaitForSeconds(30f); // Attendre 30 secondes
-        CanvaStatue.SetActive(false); // Désactiver le CanvasStatue après 30 secondes
+        yield return new WaitForSeconds(120f); // Attendre 120 secondes
+        CanvaStatue.SetActive(false); // Désactiver le CanvasStatue après 120 secondes
     }
 }
